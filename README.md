@@ -50,6 +50,33 @@ La tecnología amplifica el criterio.
 
 No reemplaza la responsabilidad del profesional de calidad.
 
+## Chatbot de Quality Analytics
+
+Como demostración aplicada de esta línea de trabajo, el sitio de [Quality Analytics](https://qualityanalytics.net/) incluye un chatbot con recuperación aumentada por generación (RAG).
+
+El asistente está diseñado para consultar y conectar contenido técnico publicado por Quality Analytics, incluyendo:
+
+- contenido del sitio;
+- artículos publicados;
+- libros y guías técnicas;
+- materiales relacionados con calidad, sistemas de gestión, mejora continua, Lean Six Sigma y analítica aplicada.
+
+El propósito del chatbot no es entregar respuestas genéricas.
+
+Su función es facilitar el acceso a conocimiento técnico curado, recuperar contexto relevante y apoyar al usuario en la exploración de temas de calidad, operaciones y datos.
+
+Este caso muestra cómo un sistema RAG puede convertir una biblioteca técnica propia en una interfaz consultable, manteniendo una lógica alineada con los principios de QMS Intelligence:
+
+- recuperación de información desde fuentes definidas;
+- respuestas contextualizadas;
+- trazabilidad conceptual hacia materiales existentes;
+- apoyo a formación y consulta técnica;
+- uso de IA como asistencia, no como autoridad técnica final.
+
+El chatbot está disponible en:
+
+[https://qualityanalytics.net/](https://qualityanalytics.net/)
+
 ## Mapa de repositorios públicos
 
 | Área | Repositorio | Propósito |
@@ -454,6 +481,7 @@ Focos principales:
 - [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/Quality-Analytics-Toolkit)
 - [Operational Analytics & Automation](https://github.com/fjgonzalezmgt/Operational-Analytics-Automation)
 - [Learning / Data Science Portfolio](https://github.com/fjgonzalezmgt/Learning-Data-Science-Portfolio)
+- [Quality Analytics Chatbot](https://qualityanalytics.net/)
 - [Perfil de GitHub](https://github.com/fjgonzalezmgt)
 - [Quality Analytics](https://qualityanalytics.net)
 - [LinkedIn](https://www.linkedin.com/in/franciscogonzalez)
