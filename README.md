@@ -50,12 +50,11 @@ La tecnología amplifica el criterio.
 
 No reemplaza la responsabilidad del profesional de calidad.
 
-## Mapa de repositorios
+## Mapa de repositorios públicos
 
 | Área | Repositorio | Propósito |
 |---|---|---|
 | RAG para calidad y QMS | [RAG_QA](https://github.com/fjgonzalezmgt/RAG_QA) | Sistema RAG para inteligencia documental y soporte operativo basado en evidencia. Orientado a SOPs, CAPA, auditorías, reclamos, especificaciones, reportes de calidad, proyectos DMAIC e indicadores operativos. |
-| RAG para conocimiento técnico | [RAG_BOOKS](https://github.com/fjgonzalezmgt/RAG_BOOKS) | Experimentos y componentes relacionados con recuperación aumentada por generación sobre fuentes documentales extensas, libros, guías o materiales técnicos. |
 
 ## Líneas principales del proyecto
 
@@ -120,17 +119,15 @@ Casos de uso típicos:
 
 ### 4. Gestión de conocimiento técnico
 
-Repositorio relacionado:
+Esta línea se enfoca en convertir bibliotecas técnicas, guías, manuales, materiales formativos y documentos especializados en conocimiento más consultable.
 
-- [RAG_BOOKS](https://github.com/fjgonzalezmgt/RAG_BOOKS)
+El objetivo es apoyar aprendizaje, formación técnica y recuperación de conceptos aplicados sin depender únicamente de búsquedas manuales o memoria individual.
 
-Esta línea se enfoca en convertir bibliotecas técnicas, guías, libros, manuales y materiales formativos en conocimiento más consultable.
-
-El objetivo es apoyar aprendizaje, formación técnica y recuperación de conceptos aplicados.
+Algunos experimentos relacionados con bibliotecas técnicas y recuperación documental pueden mantenerse como trabajo interno o repositorios privados.
 
 Casos de uso típicos:
 
-- consulta de libros técnicos;
+- consulta de documentación técnica;
 - recuperación de conceptos de calidad, estadística o mejora continua;
 - soporte a formación Lean Six Sigma;
 - preparación de materiales educativos;
@@ -394,7 +391,7 @@ No para agregar ruido.
 
 ## Relación con Quality Analytics Toolkit
 
-Esta línea complementa el [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/quality-analytics-toolkit).
+Esta línea complementa el [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/Quality-Analytics-Toolkit).
 
 Mientras el toolkit se enfoca en herramientas estadísticas y operativas como SPC, Gage R&R, capacidad, FMEA, DOE y muestreo, QMS Intelligence / AI for Quality se enfoca en documentación, evidencia y conocimiento organizacional.
 
@@ -454,8 +451,9 @@ Focos principales:
 ## Enlaces relacionados
 
 - [RAG_QA](https://github.com/fjgonzalezmgt/RAG_QA)
-- [RAG_BOOKS](https://github.com/fjgonzalezmgt/RAG_BOOKS)
-- [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/quality-analytics-toolkit)
+- [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/Quality-Analytics-Toolkit)
+- [Operational Analytics & Automation](https://github.com/fjgonzalezmgt/Operational-Analytics-Automation)
+- [Learning / Data Science Portfolio](https://github.com/fjgonzalezmgt/Learning-Data-Science-Portfolio)
 - [Perfil de GitHub](https://github.com/fjgonzalezmgt)
 - [Quality Analytics](https://qualityanalytics.net)
 - [LinkedIn](https://www.linkedin.com/in/franciscogonzalez)
