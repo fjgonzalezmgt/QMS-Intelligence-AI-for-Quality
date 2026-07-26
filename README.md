@@ -14,13 +14,13 @@ El foco no es construir chatbots genéricos. El foco es apoyar decisiones de cal
 flowchart LR
     A[Biblioteca Técnica Quality Analytics] --> B[Conocimiento técnico curado]
     B --> C[QMS Intelligence / AI for Quality]
-    C --> D[Recuperación de evidencia]
+    C --> D[Recuperación y análisis de evidencia]
     D --> E[Respuesta con contexto]
     E --> F[Revisión humana]
     F --> G[Decisión de calidad]
 ```
 
-La biblioteca define el conocimiento técnico. Este repositorio explora cómo hacerlo más consultable mediante IA y recuperación documental.
+La biblioteca define el conocimiento técnico. Este repositorio explora cómo hacerlo más consultable y analizable mediante IA, recuperación documental y procesamiento estructurado de datos no estructurados.
 
 ---
 
@@ -31,6 +31,7 @@ La biblioteca define el conocimiento técnico. Este repositorio explora cómo ha
 | Encontrar evidencia documental más rápido | RAG / recuperación de documentos | Qué información respalda una decisión |
 | Preparar auditorías con menos fricción | búsqueda por requisito, proceso o documento | Qué evidencia presentar y qué brechas revisar |
 | Conectar reclamos, CAPA y antecedentes | inteligencia documental | Si un problema es recurrente o está relacionado con casos previos |
+| Analizar grandes volúmenes de comentarios o reseñas | clasificación estructurada y búsqueda semántica | Qué patrones, categorías y señales requieren atención |
 | Consultar SOPs o especificaciones | recuperación con contexto | Qué documento aplica y bajo qué condiciones |
 | Revisar consistencia de CAPA | análisis asistido | Si causa, acción y evidencia están alineadas |
 | Convertir bibliotecas técnicas en consulta práctica | asistentes especializados | Cómo acceder a conocimiento curado sin perder trazabilidad |
@@ -43,6 +44,7 @@ La biblioteca define el conocimiento técnico. Este repositorio explora cómo ha
 | Área | Repositorio | Uso principal |
 |---|---|---|
 | RAG para calidad y QMS | [RAG_QA](https://github.com/fjgonzalezmgt/RAG_QA) | Sistema RAG para inteligencia documental y soporte operativo basado en evidencia |
+| Voz del cliente y análisis semántico | [sentiment_analysis](https://github.com/fjgonzalezmgt/sentiment_analysis) | Pipeline reproducible para clasificar reseñas, validar resultados, reducir costos mediante Batch API y habilitar búsqueda semántica con Chroma |
 
 ---
 
@@ -51,9 +53,9 @@ La biblioteca define el conocimiento técnico. Este repositorio explora cómo ha
 ```mermaid
 flowchart TD
     A[Documentos y datos QMS] --> B[Preparación y limpieza]
-    B --> C[Metadatos e indexación]
+    B --> C[Metadatos, clasificación e indexación]
     C --> D[(Base documental / vectorial)]
-    D --> E[Recuperación de evidencia]
+    D --> E[Recuperación y análisis de evidencia]
     E --> F[Generación asistida]
     F --> G[Respuesta con fuentes y contexto]
     G --> H[Revisión humana]
@@ -83,6 +85,8 @@ Un buen modelo no compensa documentos pobres, datos desordenados o falta de gobi
 - Búsqueda de evidencia por proceso, planta, producto, requisito o fecha.
 - Conexión entre hallazgos, CAPA, reclamos y documentación aplicable.
 - Revisión de antecedentes de no conformidades o reclamos.
+- Clasificación y análisis semántico de comentarios, reseñas o voz del cliente.
+- Identificación de patrones recurrentes en categorías de servicio o calidad.
 - Soporte a análisis de recurrencia.
 - Consulta de especificaciones o criterios técnicos.
 - Asistentes técnicos basados en bibliotecas curadas.
@@ -96,6 +100,7 @@ Un buen modelo no compensa documentos pobres, datos desordenados o falta de gobi
 - Revisión humana antes de usar una respuesta para decidir.
 - Gobierno documental para distinguir documentos vigentes, obsoletos o no aplicables.
 - Seguridad de información para documentación sensible.
+- Validación de esquemas, taxonomías y reglas antes de aceptar salidas del modelo.
 - Límites claros de uso.
 - IA como asistencia, no como autoridad técnica final.
 
